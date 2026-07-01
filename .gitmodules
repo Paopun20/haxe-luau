@@ -1,3 +1,4 @@
 [submodule "luau"]
 	path = luau
 	url = https://github.com/luau-lang/luau.git
+	branch = f1f121dc1f61659bdf8fafa8d4908211c9f4dda8

@@ -315,7 +315,7 @@ extern class LuaCallbacks {
 @:include("stdarg.h")
 @:native("va_list") extern class CVarList {}
 
-@:include("LuaHidden.h")
+// @:include("LuaHidden.h")
 @:include("lua.h")
 @:include("lualib.h")
 @:include("luacode.h")

@@ -12,7 +12,7 @@ import hxluau.Lua.State;
 		<lib name='${haxelib:hxluau}/luau/cmake/libLuau.Compiler.a'/>
 		<lib name='${haxelib:hxluau}/luau/cmake/libLuau.Ast.a'/>
 	</target>")
-@:include("LuaHidden.h")
+// @:include("LuaHidden.h")
 @:include("lua.h")
 @:include("lualib.h")
 @:include("luacode.h")
