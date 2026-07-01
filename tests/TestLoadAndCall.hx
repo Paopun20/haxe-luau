@@ -1,10 +1,13 @@
 package;
 
-import Lua.LuaType;
-import Lua.State;
-import Lua;
-import LuaCode.CompileOptions;
-import Requirer;
+import hxluau.Lua.LuaType;
+import hxluau.Lua.State;
+import hxluau.Lua;
+import hxluau.LuaCode.CompileOptions;
+import hxluau.Require;
+import hxluau.LuaCode;
+import hxluau.Lualib;
+import hxluau.RequireCallbacks;
 import sys.io.File;
 import utest.Assert;
 import utest.Test;

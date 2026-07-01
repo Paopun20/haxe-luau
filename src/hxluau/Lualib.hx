@@ -1,9 +1,7 @@
-import Lua.State;
+package hxluau;
 
-@:include("LuaHidden.h")
-@:include("lua.h")
-@:include("lualib.h")
-@:include("luacode.h")
+import hxluau.Lua.State;
+
 @:buildXml("
 	<files id='haxe'>
 		<compilerflag value='-I${haxelib:hxluau}/luau/VM/include'/>
@@ -14,6 +12,10 @@ import Lua.State;
 		<lib name='${haxelib:hxluau}/luau/cmake/libLuau.Compiler.a'/>
 		<lib name='${haxelib:hxluau}/luau/cmake/libLuau.Ast.a'/>
 	</target>")
+@:include("LuaHidden.h")
+@:include("lua.h")
+@:include("lualib.h")
+@:include("luacode.h")
 extern class Lualib {
 	/**
 	 * Open all standard Lua libraries into the given state.

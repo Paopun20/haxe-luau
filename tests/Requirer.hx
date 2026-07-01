@@ -1,9 +1,12 @@
 package;
 
-import Lua.LuaStatus;
-import Lua.State;
-import LuaCode.CompileOptions;
-import Require;
+import hxluau.Lua.LuaStatus;
+import hxluau.Lua;
+import hxluau.Lua.State;
+import hxluau.LuaCode;
+import hxluau.LuaCode.CompileOptions;
+import hxluau.Require;
+
 import VFSNavigator.NavigationStatus;
 import sys.FileSystem;
 

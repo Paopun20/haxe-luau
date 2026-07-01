@@ -1,6 +1,6 @@
 package;
 
-import Lua;
+import hxluau.Lua;
 import utest.Assert;
 import utest.Test;
 

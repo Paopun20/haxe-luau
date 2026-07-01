@@ -1,4 +1,6 @@
-import Lua.State;
+package hxluau;
+
+import hxluau.Lua.State;
 
 @:native("luarequire_NavigateResult")
 enum abstract NavigateResult(Int) from Int to Int {

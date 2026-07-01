@@ -1,3 +1,5 @@
+package hxluau;
+
 typedef State = Null<Int>; // Must be Null<haxe.macro.ComplexType>
 typedef CString = String;
 typedef LuaHaxeStaticFunction = State->Int;

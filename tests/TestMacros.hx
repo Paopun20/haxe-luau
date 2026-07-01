@@ -1,8 +1,8 @@
 package;
 
-import Lua.LuaStatus;
-import Lua.State;
-import Lua;
+import hxluau.Lua.LuaStatus;
+import hxluau.Lua.State;
+import hxluau.Lua;
 import utest.Assert;
 import utest.Test;
 
@@ -294,7 +294,7 @@ class TestMacros extends Test {
 	function testPushLocalCClosure() {
 		var L = Lua.newstate();
 		var called = false;
-		var cfunc:Lua.LuaCFunction = function(L) {
+		var cfunc: hxluau.Lua.LuaCFunction = function(L) {
 			called = true;
 			return 0;
 		};

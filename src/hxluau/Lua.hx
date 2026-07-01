@@ -1,7 +1,7 @@
-package;
+package hxluau;
 
-import LuaCode.Code;
-import Types.CString;
+import hxluau.LuaCode.Code;
+import hxluau.Types.CString;
 import haxe.ds.Vector;
 
 @:cppNamespaceCode('

@@ -1,8 +1,10 @@
 package;
 
-import Lua.CSizeT;
-import Lua.LuaStatus;
-import LuaCode.CompileOptions;
+import hxluau.Lua;
+import hxluau.Lua.CSizeT;
+import hxluau.Lua.LuaStatus;
+import hxluau.LuaCode;
+import hxluau.LuaCode.CompileOptions;
 import utest.Assert;
 import utest.Test;
 

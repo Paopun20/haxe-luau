@@ -1,7 +1,9 @@
 package;
 
-import Lua;
-import LuaCode.CompileOptions;
+import hxluau.Lua;
+import hxluau.LuaCode;
+import hxluau.Lualib;
+import hxluau.LuaCode.CompileOptions;
 import utest.Assert;
 import utest.Test;
 

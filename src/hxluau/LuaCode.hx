@@ -1,6 +1,6 @@
-package;
+package hxluau;
 
-import Types.CString;
+import hxluau.Types.CString;
 
 @:include("luacode.h")
 @:buildXml("

@@ -1,11 +1,12 @@
 package;
 
-import Lua.LuaCoStatus;
-import Lua.LuaStatus;
-import Lua.LuaType;
-import Lua.State;
-import Lua;
-import LuaCode.CompileOptions;
+import hxluau.Lua.LuaCoStatus;
+import hxluau.Lua.LuaStatus;
+import hxluau.Lua.LuaType;
+import hxluau.Lua.State;
+import hxluau.Lua;
+import hxluau.LuaCode.CompileOptions;
+import hxluau.LuaCode;
 import utest.Assert;
 import utest.Test;
 

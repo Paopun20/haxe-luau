@@ -1,5 +1,5 @@
--lib hxluau
 -lib utest
+-cp src
 -cp tests
 -main TestMain
 -cpp export/cpp

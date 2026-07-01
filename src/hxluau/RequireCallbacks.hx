@@ -1,7 +1,7 @@
-package;
+package hxluau;
 
-import Lua.State;
-import Require.NavigateResult;
+import hxluau.Lua.State;
+import hxluau.Require.NavigateResult;
 
 /**
  * Require callbacks.
